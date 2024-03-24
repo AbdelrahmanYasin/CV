@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(253, 254, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full {
+    width: 50%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: rgb(245, 239, 231);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+.Education table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    .Education th, .Education td {
+        border: 1px solid #000;
+        padding: 8px;
+        text-align: left;
+    }
+}
+.left {
+    position: initial;
+    background: url('https://th.bing.com/th/id/R.70d4d74eff715a257689e80c7754742d?rik=akWoW9G%2bDBwAOw&pid=ImgRaw&r=0') no-repeat center center;
+    
+    background-size: cover;
+    padding: 20px;
+}
+.right {
+    position: initial;
+    background-size: cover;
+    padding: 20px;
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title, .Summary, .Experience, .Education, .project {
+    margin-bottom: 30px;
+}
+
